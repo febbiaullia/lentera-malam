@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lentera Malam</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #05081a;
+    min-height: 100%;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Georgia, "Times New Roman", serif;
+  }
+  .wrap {
+    text-align: center;
+    padding: 12px;
+  }
+  canvas {
+    display: block;
+    width: min(1280px, 96vw);
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 60px rgba(255, 179, 71, 0.18), 0 12px 40px rgba(0, 0, 0, 0.6);
+    background: #070d24;
+  }
+  p {
+    color: #a9b4d6;
+    font-size: 14px;
+    margin: 10px 0 0;
+  }
+  p b { color: #f5ecd7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <p><b>Lentera Malam</b> — WASD / panah untuk bergerak, SHIFT / SPASI untuk dash, P jeda, M suara.</p>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
