@@ -1,3 +1,7 @@
+[![make.fun bounty](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01)
+[![Rank](https://make.fun/badge/best-game-01/febbiaullia/lentera-malam/rank.svg)](https://make.fun/bounty/best-game-01)
+[![Reward](https://make.fun/badge/best-game-01/febbiaullia/lentera-malam/reward.svg)](https://make.fun/bounty/best-game-01)
+
 # Lentera Malam
 
 An original 2D arena game built for the make.fun bounty **best-game-01**
